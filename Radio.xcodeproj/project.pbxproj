@@ -14,6 +14,9 @@
 		FAB370771F78B0A300A52FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB370751F78B0A300A52FE0 /* LaunchScreen.storyboard */; };
 		FAB370821F78B0A300A52FE0 /* RadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB370811F78B0A300A52FE0 /* RadioTests.swift */; };
 		FAB3708D1F78B0A300A52FE0 /* RadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3708C1F78B0A300A52FE0 /* RadioUITests.swift */; };
+		FAB3709F1F78B0D900A52FE0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB3709E1F78B0D900A52FE0 /* AVFoundation.framework */; };
+		FAB370A31F78B4F900A52FE0 /* RadioFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB370A21F78B4F900A52FE0 /* RadioFunction.swift */; };
+		FAE13EB11F7A9B4300D38298 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAE13EB01F7A9B4300D38298 /* download.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FAB370881F78B0A300A52FE0 /* RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB3708C1F78B0A300A52FE0 /* RadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioUITests.swift; sourceTree = "<group>"; };
 		FAB3708E1F78B0A300A52FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB3709E1F78B0D900A52FE0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FAB370A21F78B4F900A52FE0 /* RadioFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioFunction.swift; sourceTree = "<group>"; };
+		FAE13EB01F7A9B4300D38298 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = download.jpeg; path = "../../../IMG/Useless image from Haidar/download.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB3709F1F78B0D900A52FE0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				FAB370801F78B0A300A52FE0 /* RadioTests */,
 				FAB3708B1F78B0A300A52FE0 /* RadioUITests */,
 				FAB3706A1F78B0A300A52FE0 /* Products */,
+				FAB3709D1F78B0D900A52FE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +105,14 @@
 		FAB3706B1F78B0A300A52FE0 /* Radio */ = {
 			isa = PBXGroup;
 			children = (
+				FAE13EB01F7A9B4300D38298 /* download.jpeg */,
 				FAB3706C1F78B0A300A52FE0 /* AppDelegate.swift */,
 				FAB3706E1F78B0A300A52FE0 /* ViewController.swift */,
 				FAB370701F78B0A300A52FE0 /* Main.storyboard */,
 				FAB370731F78B0A300A52FE0 /* Assets.xcassets */,
 				FAB370751F78B0A300A52FE0 /* LaunchScreen.storyboard */,
 				FAB370781F78B0A300A52FE0 /* Info.plist */,
+				FAB370A21F78B4F900A52FE0 /* RadioFunction.swift */,
 			);
 			path = Radio;
 			sourceTree = "<group>";
@@ -123,6 +133,14 @@
 				FAB3708E1F78B0A300A52FE0 /* Info.plist */,
 			);
 			path = RadioUITests;
+			sourceTree = "<group>";
+		};
+		FAB3709D1F78B0D900A52FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3709E1F78B0D900A52FE0 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB370771F78B0A300A52FE0 /* LaunchScreen.storyboard in Resources */,
+				FAE13EB11F7A9B4300D38298 /* download.jpeg in Resources */,
 				FAB370741F78B0A300A52FE0 /* Assets.xcassets in Resources */,
 				FAB370721F78B0A300A52FE0 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB3706F1F78B0A300A52FE0 /* ViewController.swift in Sources */,
+				FAB370A31F78B4F900A52FE0 /* RadioFunction.swift in Sources */,
 				FAB3706D1F78B0A300A52FE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +525,7 @@
 				FAB370931F78B0A300A52FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB370941F78B0A300A52FE0 /* Build configuration list for PBXNativeTarget "RadioTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				FAB370961F78B0A300A52FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB370971F78B0A300A52FE0 /* Build configuration list for PBXNativeTarget "RadioUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				FAB370991F78B0A300A52FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
